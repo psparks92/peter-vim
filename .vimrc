@@ -1,6 +1,8 @@
 set nocompatible
 execute pathogen#infect()
 call pathogen#helptags()
+set nobackup
+set nowritebackup
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 syntax enable

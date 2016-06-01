@@ -1,5 +1,5 @@
 set nocompatible
-call pathogen#runtime_append_all_bundles()
+execute pathogen#infect()
 call pathogen#helptags()
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
@@ -17,7 +17,6 @@ colorscheme obsidian
 "set background=dark
 "highlight Normal guibg=black guifg=white
 set guifont=Hack
-execute pathogen#infect()
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
