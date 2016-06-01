@@ -1,7 +1,14 @@
 set nocompatible
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
-source C:\Users\psparks\Google Drive\Scripts\_vimrc
+syntax enable
+set number
+set relativenumber
+set ignorecase
+set smartcase
+set shiftwidth=4
+set softtabstop=4
+colorscheme darkblue
 behave mswin
 syntax enable
 colorscheme obsidian
